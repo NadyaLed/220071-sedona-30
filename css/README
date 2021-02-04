@@ -7,3 +7,44 @@
 css/
 | - style.css
 | - [другие *.css файлы]
+
+:root {
+--basic-blue: #81B3D2;
+--basic-white: #FFFFFF;
+--basic-brown: #766458;
+--basic-brown2: #766357;
+--basic-black: #000000;
+--basic-grey: #333333;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
