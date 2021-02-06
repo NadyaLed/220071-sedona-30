@@ -1,12 +1,12 @@
-Папка для стилевых файлов.
+/*Папка для стилевых файлов.*/
 
---
+/*--*/
 
-Пример структуры файлов:
+/*Пример структуры файлов:*/
 
-css/
-| - style.css
-| - [другие *.css файлы]
+/*css/*/
+/*| - style.css*/
+/*| - [другие *.css файлы]*/
 
 :root {
 --basic-blue: #81B3D2;
@@ -28,7 +28,6 @@ body {
   font-family: "PT Sans";
   font-size: 14px;
   line-height: 26px;
-  font-weight: 700;
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: var(--basic-white);
