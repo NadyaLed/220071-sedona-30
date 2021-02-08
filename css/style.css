@@ -36,59 +36,57 @@ body {
   background-repeat: no-repeat;
 }
 
-page-body {
+.page-body {
 
 }
 
-main-header {
+.main-header {
 
 }
 
-main-navigation {
+.main-navigation {
 
 }
 
-main-header-logo {
+.main-header-logo {
 
 }
 
-site-navigation {
+.site-navigation {
 
 }
 
-container {
+.container {
 
 }
 
-features {
+.features {
 
 }
 
-features-list {
+.features-list {
 
 }
 
-features-item {
+.features-item {
 
 }
-list {
-
-}
-
-item {
+.list {
 
 }
 
-button {
-}
-
-search {
+.item {
 
 }
 
-phone {
+.button {
+}
+
+.search {
 
 }
+
+
 
 
 
@@ -101,7 +99,7 @@ img {
   height: auto;
 }
 
-blue-background {
+.blue-background {
   background-color: var(--basic-blue);
 }
 
@@ -118,6 +116,22 @@ blue-background {
   background-color: var(--basic-blue);
 }
 
-phone {
+.main-footer {
+
+}
+
+.phone {
+
+}
+
+.footer-social {
+
+}
+
+.social-button {
+
+}
+
+.footer-copyright {
 
 }
