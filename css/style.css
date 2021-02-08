@@ -9,16 +9,16 @@
 /*| - [другие *.css файлы]*/
 
 :root {
---basic-blue: #81B3D2;
---basic-blue1: #669EC0;
---basic-blue2: #5496BD;
---basic-white: #FFFFFF;
---basic-brown: #766357;
---basic-brown1: #604E43;
---basic-brown2: #503E33;
---basic-brown3: #766458;
---basic-black: #000000;
---basic-grey: #333333;
+  --basic-blue: #81B3D2;
+  --basic-blue1: #669EC0;
+  --basic-blue2: #5496BD;
+  --basic-white: #FFFFFF;
+  --basic-brown: #766357;
+  --basic-brown1: #604E43;
+  --basic-brown2: #503E33;
+  --basic-brown3: #766458;
+  --basic-black: #000000;
+  --basic-grey: #333333;
 }
 
 body {
@@ -36,6 +36,52 @@ body {
   background-repeat: no-repeat;
 }
 
+page-body {
+
+}
+
+main-header {
+
+}
+
+main-navigation {
+
+}
+
+main-header-logo {
+
+}
+
+site-navigation {
+
+}
+
+container {
+
+}
+
+features {
+
+}
+
+features-list {
+
+}
+
+features-item {
+
+}
+list {
+
+}
+
+item {
+
+}
+
+button {
+}
+
 a {
   text-decoration: none;
 }
@@ -45,11 +91,8 @@ img {
   height: auto;
 }
 
-.main-navigation {
-  font-size: 14px;
-  line-height: 26px;
-  color: var(--basic-black);
-  background-color: var(--basic-white);
+blue-background {
+  background-color: var(--basic-blue);
 }
 
 .button {
