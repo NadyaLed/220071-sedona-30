@@ -82,6 +82,16 @@ item {
 button {
 }
 
+search {
+
+}
+
+phone {
+
+}
+
+
+
 a {
   text-decoration: none;
 }
@@ -95,16 +105,6 @@ blue-background {
   background-color: var(--basic-blue);
 }
 
-.button {
-  font: inherit;
-  text-align: center;
-  color: var(--basic-white);
-  vertical-align: middle;
-  text-transform: uppercase;
-  background-color: var(--basic-black);
-  border: none;
-}
-
 .button:hover,
 .button:focus,
 .button:active {
@@ -116,4 +116,8 @@ blue-background {
   cursor: default;
   opacity: 0.5;
   background-color: var(--basic-blue);
+}
+
+phone {
+
 }
