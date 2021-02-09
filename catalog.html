@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Каталог</title>
+  <meta charset="utf-8">
+  <title>Седона</title>
+  <link rel="stylesheet" css/normalize.css>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-<header>
-  <nav>
+<body class="page-body">
+<header class="main-header">
+  <nav class="main-navigation">
     <a>
       <img src="img/logo1.svg" width="138" height="70" alt="Логотип City of Sedona">
     </a>
-    <ul>
+    <ul class="site-navigation">
       <li><a href="pages/blank.html">Информация</a></li>
       <li><a href="pages/blank.html">Фото и видео</a></li>
       <li><a href="pages/blank.html">Карта штата</a></li>
@@ -69,14 +76,14 @@
     <h2>Результаты поиска</h2>
     <p>Найдено:3</p>
     <p>Сортировка:</p>
-    <ul>
+    <ul class="filter">
       <li>по цене</li>
       <li>по типу</li>
       <li>по рейтингу</li>
       <button type="button">По возрастанию</button>
       <button type="button">По убыванию</button>
     </ul>
-    <ul>
+    <ul class="filter">
       <li>
         <img src="img/hotel_1.jpg" width="135" height="90" alt="Amara Resort & Spa">
         <h3>amara resort & spa</h3>
@@ -107,12 +114,12 @@
     </ul>
   </section>
 </main>
-<footer>
+<footer   class="main-footer">
   <div>
     <p>#visitsedona</p>
     <p><a href="tel:+74956660166">тел: +7(495)666-01-66</a></p>
   </div>
-  <div>
+  <div class="footer-social">
     <ul>
       <li>
         <a href="#"><img src="img/twitter.svg" width="46" height="48" alt="twitter"></a>
