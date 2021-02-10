@@ -42,7 +42,7 @@
 }
 
 .main-navigation {
-list-style: none;
+  list-style: none;
 }
 
 .main-header-logo {
@@ -50,12 +50,19 @@ list-style: none;
 }
 
 .site-navigation {
+  color: var(--basic-black);;
   list-style: none;
   text-align: center;
 }
 
+.bold-text {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
 .container {
-text-align: center;
+  text-align: center;
 }
 
 .features {
@@ -69,8 +76,10 @@ text-align: center;
 .features-item {
 
 }
+
 .list {
   list-style: none;
+
 }
 
 .item {
@@ -81,15 +90,12 @@ text-align: center;
 }
 
 .search {
-
+  text-align: center;
 }
+
 .filter {
   list-style: none;
 }
-
-
-
-
 
 img {
   max-width: 100%;
@@ -97,20 +103,40 @@ img {
 }
 
 .blue-background {
+  color: var(--basic-white);
   background-color: var(--basic-blue);
 }
 
-.button:hover,
-.button:focus,
-.button:active {
-  background-color: var(--basic-blue);
+.grey-background {
+  background-color: var(--basic-grey1);
 }
 
-.button.disabled,
-.button:disabled {
-  cursor: default;
-  opacity: 0.5;
+.brown-background {
+  color: var(--basic-white);
+  background-color:  var(--basic-brown);
+}
+
+.search-button {
+  font-size: 21px;
+  line-height: 27,17px;
+  font-weight: 700;
+  display: inline-block;
+  width: 458px;
+  height: 58px;
   background-color: var(--basic-blue);
+  color: white;
+  border: none;
+}
+
+.search-button:hover {
+  background-color: var(--basic-blue1);
+}
+
+.search-button:focus {
+  color: var(--basic-blue);
+  background-color: var(--basic-blue2);
+  display: inline-block;
+  border: none;
 }
 
 .main-footer {
@@ -125,10 +151,34 @@ img {
   list-style: none;
 }
 
-.social-button {
+.list-style-none {
+  list-style: none;
+}
 
+.social-button {
+  color: white;
+  background-color: var(--basic-blue);
+}
+
+.social-button:hover {
+  color: white;
+  background-color: var(--basic-blue1);
+}
+
+.social-button:focus {
+  color: var(--basic-blue);
+  background-color: var(--basic-blue2);
 }
 
 .footer-copyright {
+  color: var(--basic-black);
+}
+
+.footer-copyright:hover {
+  color: var(--basic-blue);
+}
+
+.footer-copyright:hover {
+  color: var(--basic-grey);
 
 }
