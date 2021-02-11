@@ -42,17 +42,20 @@
 }
 
 .main-navigation {
+  color: var(--basic-black);
   list-style: none;
-}
+  text-decoration: underline;
+ }
 
 .main-header-logo {
   text-align: center;
 }
 
 .site-navigation {
-  color: var(--basic-black);;
+  color: var(--basic-black);
   list-style: none;
   text-align: center;
+  text-decoration: underline;
 }
 
 .bold-text {
@@ -94,6 +97,9 @@
 }
 
 .filter {
+  list-style: none;
+}
+.sorting {
   list-style: none;
 }
 
@@ -144,7 +150,7 @@ img {
 }
 
 .phone {
-
+color: inherit;
 }
 
 .footer-social {
