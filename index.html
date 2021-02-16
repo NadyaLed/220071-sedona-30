@@ -28,9 +28,9 @@
 <main class="container">
   <img src="img/welcome.jpg" width="1200" height="509" alt="Горы Седоны">
   <h1>Добро пожаловать в Седону</h1>
-  <section>
-    <p class="site-description">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</p>
-    <h2 class="cause">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
+  <p class="site-description">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</p>
+  <section class="features">
+    <h2 class="section-header">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
     <ul class="features-list">
       <li class="features-item">
         <div class="another-background">
@@ -80,19 +80,19 @@
       </li>
     </ul>
   </section>
-  <section>
+  <section class="find-hotels">
     <h2 class="question">Заинтересовались?</h2>
     <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-  </section>
-  <section class="search">
     <button type="button" class="search-hotel">Поиск гостиницы в Седоне</button>
-    <p>Дата заезда</p>
-    <input type="text" name="Дата заезда">
-    <p>Дата выезда</p>
-    <input type="text" name="Дата выезда">
-    <p>Взрослые</p>
-    <p>Дети</p>
-    <button type="button" class="search-button">Найти</button>
+    <article class="dropdown">
+      <p>Дата заезда</p>
+      <input type="text" name="Дата заезда">
+      <p>Дата выезда</p>
+      <input type="text" name="Дата выезда">
+      <p>Взрослые</p>
+      <p>Дети</p>
+      <button type="button" class="search-button">Найти</button>
+    </article>
   </section>
   <img src="img/map.svg" width="1199" height="594" alt="Карта">
 </main>
@@ -104,13 +104,19 @@
   <div class="footer-social">
     <ul class="social-buttons">
       <li>
-        <a class="social-button" href="#"><img src="img/twitter.svg" alt="twitter"></a>
+        <a class="social-button" href="#">
+          <img class="social-logo" src="img/twitter.svg" alt="twitter">
+        </a>
       </li>
       <li>
-        <a class="social-button" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+        <a class="social-button" href="#">
+          <img class="social-logo" src="img/facebook.svg" alt="facebook">
+        </a>
       </li>
       <li>
-        <a class="social-button" href="#"><img src="img/youtube.svg" alt="youtube"></a>
+        <a class="social-button" href="#">
+          <img class="social-logo" src="img/youtube.svg" alt="youtube">
+        </a>
       </li>
     </ul>
   </div>

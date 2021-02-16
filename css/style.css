@@ -74,7 +74,7 @@
   font-weight: 700;
 }
 
-.cause {
+.section-header {
   font-size: 14px;
   line-height: 26px;
   font-weight: normal;
@@ -82,6 +82,11 @@
 
 .container {
   text-align: center;
+
+}
+
+.features{
+
 }
 
 .features-list {
@@ -104,7 +109,7 @@
   list-style: none;
 }
 
-.search {
+.dropdown {
   text-align: center;
 }
 
@@ -128,6 +133,10 @@ img {
 
 .basic-background2 {
   background-color: var(--basic-background2);
+  }
+
+.find-hotels {
+
 }
 
 .search-button {
@@ -190,21 +199,26 @@ img {
 }
 
 .social-button {
-  color: white;
   background-color: var(--basic-background1);
   margin: 0 6px;
   width: 46px;
   height: 48px;
+  display: inline-block;
 }
 
 .social-button:hover {
-  color: white;
   background-color: var(--basic-hover);
 }
 
 .social-button:focus {
   color: var(--basic-background1);
   background-color: var(--button-focus);
+}
+
+.social-logo {
+  flex-grow: 0;
+  align-self: center;
+  margin: 0 auto;
 }
 
 .footer-copyright {
