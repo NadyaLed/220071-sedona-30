@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
-  <link rel="stylesheet" css/normalize.css>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/catalog.css">
   <link rel="icon" href="img/favicon.ico">
@@ -31,7 +31,7 @@
     <h2>Фильтр гостиниц</h2>
     <img src="img/background.jpg" width="1200" height="217" alt="Фоновая картинка">
     <fieldset>
-      <legend>Инфраструктура:</legend>
+      <legend class="filter-list">Инфраструктура:</legend>
       <ul class="filter">
         <li>
           <input type="checkbox" name="бассейн" id="бассейн" checked>
@@ -48,7 +48,7 @@
       </ul>
     </fieldset>
     <fieldset>
-      <legend>Тип жилья:</legend>
+      <legend class="filter-list">Тип жилья:</legend>
       <ul class="filter">
         <li>
           <input type="checkbox" name="гостиница" id="гостиница" checked>
@@ -65,7 +65,7 @@
       </ul>
     </fieldset>
     <fieldset>
-      <legend>Стоимость в сутки (р):</legend>
+      <legend class="filter-list">Стоимость в сутки (р):</legend>
       <input type="text" name="минимальная стоимость">
       <input type="text" name="максимальная стоимость">
       <article>Ползунок выбора стоимости</article>
@@ -73,10 +73,10 @@
     </fieldset>
   </section>
   <section>
-    <h2>Результаты поиска</h2>
-    <p>Найдено:3</p>
-    <p>Сортировка:</p>
-    <ul class="sorting">
+    <h2 class="result">Результаты поиска</h2>
+    <p class="found">Найдено:3</p>
+    <p class="sort">Сортировка:</p>
+    <ul class="sorting-list">
       <li>по цене</li>
       <li>по типу</li>
       <li>по рейтингу</li>

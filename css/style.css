@@ -22,7 +22,7 @@
   --reservation3: #766458;
   --basic-text-color: #000000;
   --text-color: #333333;
-  }
+}
 
 .page-body {
   min-width: 1200px;
@@ -45,7 +45,7 @@
   color: var(--basic-text-color);
   list-style: none;
   text-decoration: none;
- }
+}
 
 .main-header-logo {
   text-align: center;
@@ -62,7 +62,7 @@
   padding-left: 0;
 }
 
-.site-navigation a{
+.site-navigation a {
   color: var(--basic-text-color);
   text-align: center;
   text-decoration: none;
@@ -111,6 +111,7 @@
 .filter {
   list-style: none;
 }
+
 .sorting {
   list-style: none;
 }
@@ -177,7 +178,7 @@ img {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-color: inherit;
+  color: inherit;
 }
 
 .social-buttons {
@@ -218,6 +219,6 @@ color: inherit;
 }
 
 .footer-copyright:focus {
-  color: var(basic-background2);
+  color: var(--basic-background2);
 
 }

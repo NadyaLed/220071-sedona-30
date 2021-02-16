@@ -1,0 +1,95 @@
+:root {
+  --basic-background: #FFFFFF;
+  --basic-background1: #81B3D2;
+  --basic-background2: #EEEEEE;
+  --basic-hover: #669EC0;
+  --button-focus: #5496BD;
+  --reservation: #766357;
+  --reservation1: #604E43;
+  --reservation2: #503E33;
+  --reservation3: #766458;
+  --basic-text-color: #000000;
+  --text-color: #333333;
+}
+
+
+.page-body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: var(--basic-text-color);
+  text-transform: uppercase;
+  background-color: var(--basic-background);
+}
+
+.main-header {
+  text-align: center;
+}
+
+.main-navigation {
+  color: var(--basic-text-color);
+  list-style: none;
+  text-decoration: none;
+}
+
+.main-header-logo {
+  text-align: center;
+}
+
+.site-navigation {
+  color: var(--basic-text-color);
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.site-navigation a{
+  color: var(--basic-text-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.filter {
+    text-align: center;
+}
+
+.filter-list {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+ .result {
+   text-align: center;
+   list-style: none;
+ }
+
+ .found {
+   text-align: center;
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: 700;
+ }
+ .sort {
+   text-align: center;
+   font-size: 12px;
+   line-height: 18px;
+   font-weight: 400;
+   list-style: none;
+ }
+
+ .sorting-list {
+   text-align: center;
+   font-size: 12px;
+   line-height: 18px;
+   font-weight: 400;
+   list-style: none;
+ }
