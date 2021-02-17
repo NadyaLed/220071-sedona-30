@@ -11,7 +11,7 @@
 /* Variables */
 
 :root {
-  --basic-background: #FFFFFF;
+  --text-inverse: #FFFFFF;
   --basic-background1: #81B3D2;
   --basic-background2: #EEEEEE;
   --basic-hover: #669EC0;
@@ -20,8 +20,8 @@
   --reservation1: #604E43;
   --reservation2: #503E33;
   --reservation3: #766458;
-  --basic-text-color: #000000;
-  --text-color: #333333;
+  --text-basic: #000000;
+  --text-faded: #333333;
 }
 
 .page-body {
@@ -32,9 +32,9 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-  color: var(--basic-text-color);
+  color: var(--text-basic);
   text-transform: uppercase;
-  background-color: var(--basic-background);
+  background-color: var(--text-inverse);
 }
 
 .main-header {
@@ -42,7 +42,7 @@
 }
 
 .main-navigation {
-  color: var(--basic-text-color);
+  color: var(--text-basic);
   list-style: none;
   text-decoration: none;
 }
@@ -52,7 +52,7 @@
 }
 
 .site-navigation {
-  color: var(--basic-text-color);
+  color: var(--text-basic);
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -63,7 +63,7 @@
 }
 
 .site-navigation a {
-  color: var(--basic-text-color);
+  color: var(--text-basic);
   text-align: center;
   text-decoration: none;
 }
@@ -91,6 +91,15 @@
 
 .features-list {
   list-style: none;
+}
+
+.features-item {
+
+}
+
+.feature {
+  color: var(--text-inverse);
+  background-color: var(--basic-background1);
 }
 
 .caption {
@@ -124,11 +133,6 @@
 img {
   max-width: 100%;
   height: auto;
-}
-
-.another-background {
-  color: var(--basic-background);
-  background-color: var(--basic-background1);
 }
 
 .basic-background2 {
@@ -224,7 +228,7 @@ img {
 .footer-copyright {
   font-size: 14px;
   line-height: 26px;
-  color: var(--basic-text-color);
+  color: var(--text-basic);
   font-weight: normal;
 }
 
