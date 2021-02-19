@@ -1,19 +1,10 @@
-/*Папка для стилевых файлов.*/
 
-/*--*/
-
-/*Пример структуры файлов:*/
-
-/*css/*/
-/*| - style.css*/
-/*| - [другие *.css файлы]*/
-
-/* Variables */
 
 :root {
   --text-inverse: #FFFFFF;
   --basic-background1: #81B3D2;
   --basic-background2: #EEEEEE;
+  --basic-background3: #F2F2F2;
   --basic-hover: #669EC0;
   --button-focus: #5496BD;
   --reservation: #766357;
@@ -22,7 +13,7 @@
   --reservation3: #766458;
   --text-basic: #000000;
   --text-faded: #333333;
-}
+ }
 
 .page-body {
   min-width: 1200px;
@@ -111,11 +102,6 @@ width: 400px;
   width: 33.33%;
 }
 
-/*.feature .feature-caption {
-  color: var(--text-faded);
-  background-color: var(--basic-background1);
-} */
-
 .feature-accent {
   background-color: var(--basic-background1);
   color: var(--text-inverse);
@@ -148,6 +134,24 @@ width: 400px;
 
 .dropdown {
   text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.dropdown-input, .dropdown-input1 {
+  background-color: var(--basic-background3);
+  border: none;
+}
+
+.dropdown-input {
+  width: 346px;
+  height: 38px;
+}
+
+.dropdown-input1 {
+  width: 114px;
+  height: 38px;
 }
 
 .filter {
@@ -163,9 +167,9 @@ img {
   height: auto;
 }
 
-.basic-background2 {
+/* .basic-background2 {
   background-color: var(--basic-background2);
-  }
+  } */
 
 .find-hotels {
 
@@ -235,7 +239,8 @@ img {
   margin: 0 6px;
   width: 46px;
   height: 48px;
-  display: inline-block;
+  display: inline-flex;
+  padding: 10px;
 }
 
 .social-button:hover {
@@ -251,6 +256,11 @@ img {
   flex-grow: 0;
   align-self: center;
   margin: 0 auto;
+}
+
+.social-logo1 {
+  width: 16.98px;
+  height: 15.01px;
 }
 
 .footer-copyright {
