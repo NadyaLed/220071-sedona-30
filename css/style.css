@@ -154,14 +154,6 @@ width: 400px;
   height: 38px;
 }
 
-.filter {
-  list-style: none;
-}
-
-.sorting {
-  list-style: none;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -212,6 +204,96 @@ img {
   text-transform: uppercase;
 }
 
+.filter {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.filter-list {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.result {
+  text-align: center;
+  list-style: none;
+}
+
+.found {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.sort {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.sorting {
+  list-style: none;
+}
+
+.sorting-list {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  list-style: none;
+  padding: 0;
+}
+
+.hotel-name {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.rating {
+  background-color: var(--basic-background3);
+  width: 110px;
+  height: 27px;
+  text-align: center;
+  display: ;
+}
+
+.button-detail, .button-book {
+  color: var(--text-inverse);
+  height: 27px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+}
+
+.button-detail {
+ background-color: var(--basic-background1);
+  width: 110px;
+}
+
+.button-book {
+  background-color: var(--reservation);
+  width: 142px;
+}
+
+.button-detail:hover {
+  background-color: var(--basic-hover);
+  border: none;
+}
+
+.button-book:hover {
+  background-color: var(--reservation1);
+  border: none;
+}
+
 .main-footer {
   font-size: 21px;
   line-height: 26px;
@@ -224,6 +306,7 @@ img {
   line-height: 26px;
   font-weight: 700;
   color: inherit;
+  text-decoration: none;
 }
 
 .social-buttons {
@@ -240,7 +323,6 @@ img {
   width: 46px;
   height: 48px;
   display: inline-flex;
-  padding: 10px;
 }
 
 .social-button:hover {

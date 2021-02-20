@@ -57,39 +57,3 @@
   text-decoration: none;
 }
 
-.filter {
-    text-align: center;
-}
-
-.filter-list {
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 700;
-}
-
- .result {
-   text-align: center;
-   list-style: none;
- }
-
- .found {
-   text-align: center;
-   font-size: 21px;
-   line-height: 26px;
-   font-weight: 700;
- }
- .sort {
-   text-align: center;
-   font-size: 12px;
-   line-height: 18px;
-   font-weight: 400;
-   list-style: none;
- }
-
- .sorting-list {
-   text-align: center;
-   font-size: 12px;
-   line-height: 18px;
-   font-weight: 400;
-   list-style: none;
- }
