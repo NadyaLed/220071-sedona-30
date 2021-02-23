@@ -27,11 +27,11 @@
 </header>
 <main>
   <h1>Выбор гостиницы</h1>
-  <section class="filter">
+  <section class="filters">
     <h2>Фильтр гостиниц</h2>
-<!--    <img src="img/background.jpg" width="1200" height="217" alt="Фоновая картинка">-->
-    <fieldset>
-      <legend class="filter-list">Инфраструктура:</legend>
+
+    <fieldset class="filter">
+      <legend class="filter-infrastructure">Инфраструктура:</legend>
       <ul class="filter1">
         <li>
           <input type="checkbox" name="бассейн" id="бассейн" checked>
@@ -47,9 +47,9 @@
         </li>
       </ul>
     </fieldset>
-    <fieldset>
-      <legend class="filter-list">Тип жилья:</legend>
-      <ul class="filter1">
+    <fieldset class="filter">
+      <legend class="filter-housing">Тип жилья:</legend>
+      <ul class="filter2">
         <li>
           <input type="checkbox" name="гостиница" id="гостиница" checked>
           <label for="гостиница">гостиница</label>
@@ -64,19 +64,19 @@
         </li>
       </ul>
     </fieldset>
-    <fieldset>
-      <legend class="filter-list">Стоимость в сутки (р):</legend>
+    <fieldset class="filter">
+      <legend class="filter-cost">Стоимость в сутки (р):</legend>
       <input type="text" name="минимальная стоимость">
       <input type="text" name="максимальная стоимость">
       <article>Ползунок выбора стоимости</article>
       <button type="button">Показать</button>
     </fieldset>
   </section>
-  <section>
-    <h2 class="result">Результаты поиска</h2>
-    <p class="found">Найдено:3</p>
+  <section class="search-results">
+    <h2 class="result-count">Результаты поиска</h2>
+    <p class="sort-caption">Найдено:3</p>
     <p class="sort">Сортировка:</p>
-    <ul class="sorting-list">
+    <ul class="results-list">
       <li>по цене</li>
       <li>по типу</li>
       <li>по рейтингу</li>
@@ -84,32 +84,32 @@
       <button type="button">По убыванию</button>
     </ul>
     <ul class="filter-result">
-      <li>
+      <li class="hotel">
         <img src="img/hotel_1.jpg" width="135" height="90" alt="Amara Resort & Spa">
         <h3 class="hotel-name">amara resort & spa</h3>
         <p>гостиница</p>
         <p>от 4000 р.</p>
-        <button class="button-detail" type="button">Подробнее</button>
-        <button class="button-book" type="button">Забронировать</button>
-        <article class="rating">Рейтинг: 8,5</article>
+        <button class="hotel-detail" type="button">Подробнее</button>
+        <button class="hotel-book" type="button">Забронировать</button>
+        <article class="hotel-rating">Рейтинг: 8,5</article>
       </li>
-      <li>
+      <li class="hotel">
         <img src="img/hotel_2.jpg" width="135" height="90" alt="Desert Quail Inn">
         <h3 class="hotel-name">desert quail inn</h3>
         <p>мотель</p>
         <p>от 3000 р.</p>
-        <button class="button-detail" type="button">Подробнее</button>
-        <button class="button-book" type="button">Забронировать</button>
-        <article class="rating">Рейтинг: 8,9</article>
+        <button class="hotel-detail" type="button">Подробнее</button>
+        <button class="hotel-book" type="button">Забронировать</button>
+        <article class="hotel-rating">Рейтинг: 8,9</article>
       </li>
-      <li>
+      <li class="hotel">
         <img src="img/hotel_3.jpg" width="135" height="90" alt="Villas at Poco Diablo">
         <h3 class="hotel-name">villas at poco diablo</h3>
         <p>апартаменты</p>
         <p>от 2000 р.</p>
-        <button class="button-detail" type="button">Подробнее</button>
-        <button class="button-book" type="button">Забронировать</button>
-        <article class="rating">Рейтинг: 9,2</article>
+        <button class="hotel-detail" type="button">Подробнее</button>
+        <button class="hotel-book" type="button">Забронировать</button>
+        <article class="hotel-rating">Рейтинг: 9,2</article>
       </li>
     </ul>
   </section>
