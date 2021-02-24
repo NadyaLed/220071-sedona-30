@@ -14,14 +14,15 @@
 <body class="page-body">
 <header class="main-header">
   <nav class="main-navigation">
-    <a class="main-header-logo">
+    <!-- <a class="main-header-logo">
       <img src="img/logo.svg" alt="Логотип City of Sedona">
-    </a>
+    </a>-->
     <ul class="site-navigation">
-      <li><a href="pages/blank.html">Информация</a></li>
-      <li><a href="pages/blank.html">Фото и видео</a></li>
-      <li><a href="pages/blank.html">Карта штата</a></li>
-      <li><a href="catalog.html">Гостиницы</a></li>
+      <li class="navigation"><a href="pages/blank.html">Информация</a></li>
+      <li class="navigation"><a href="pages/blank.html">Фото и видео</a></li>
+      <li><a class="main-header-logo"><img src="img/logo.svg" alt="Логотип City of Sedona"></a></li>
+      <li class="navigation"><a href="pages/blank.html">Карта штата</a></li>
+      <li class="navigation"><a href="catalog.html">Гостиницы</a></li>
     </ul>
   </nav>
 </header>
@@ -82,7 +83,7 @@
   </section>
   <section class="find-hotels">
     <h2 class="question">Заинтересовались?</h2>
-    <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    <p class="dateoftrip">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     <button type="button" class="search-hotel">Поиск гостиницы в Седоне</button>
     <article class="dropdown">
       <p>Дата заезда</p>
@@ -93,8 +94,8 @@
       <input class="dropdown-input1" type="text" name="Взрослые">
       <p>Дети</p>
       <input class="dropdown-input1" type="text" name="Дети">
+      <button type="button" class="search-button">Найти</button>
     </article>
-    <button type="button" class="search-button">Найти</button>
   </section>
   <img src="img/map.svg" width="1199" height="594" alt="Карта">
 </main>
