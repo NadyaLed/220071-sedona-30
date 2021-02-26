@@ -264,10 +264,22 @@ img {
   padding: 0;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+  height: 217px;
 }
 
 .filter {
+  border: 0;
+  align-self: center;
+ }
 
+.filter-button {
+  text-transform: uppercase;
+  width: 137px;
+  height: 36px;
 }
 
 .filter1, .filter2 {
@@ -310,7 +322,10 @@ img {
 }
 
 .search-results {
-
+ display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  height: 540px;
  }
 
 .result-count {
