@@ -108,6 +108,11 @@
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+
 .feature {
   display: flex;
   flex-direction: column;
@@ -322,7 +327,8 @@ img {
 }
 
 .search-results {
- display: flex;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   width: 1200px;
   height: 540px;
@@ -358,6 +364,8 @@ img {
   font-weight: 400;
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .hotel-name {
