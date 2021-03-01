@@ -87,6 +87,13 @@
   text-decoration: none;
 }
 
+.sedona-site-description {
+  width: 1200px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+}
+
 .site-description {
   font-size: 21px;
   line-height: 26px;
@@ -214,10 +221,10 @@ img {
   background-color: var(--basic-background2);
   } */
 
-.find-hotels {
+/* .find-hotels {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .search-button {
   font-size: 21px;
@@ -323,6 +330,21 @@ img {
   height: 90px;
 }
 
+.hotel-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-block1 {
+  margin-left: 30px;
+
+}
+
+.hotel-block2 {
+  display: flex;
+
+}
+
 .search-results {
   display: flex;
   flex-direction: column;
@@ -416,6 +438,7 @@ img {
   height: 27px;
   text-align: center;
   align-self: flex-end;
+  margin-right: 73px;
 }
 
 .hotel-detail, .hotel-book {
