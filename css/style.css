@@ -328,6 +328,8 @@ img {
 .hotel-picture {
   width: 135px;
   height: 90px;
+  margin-left: 73px;
+  margin-top: 30px;
 }
 
 .hotel-block {
@@ -419,12 +421,21 @@ img {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  margin-bottom: 0;
 
 
 }
 
 .hotel-price {
+  margin-left: 40px;
+}
 
+.hotel-price1 {
+  margin-left: 63px;
+}
+
+.hotel-price2 {
+  margin-left: 22px;
 }
 
 .hotel-type {
@@ -439,6 +450,7 @@ img {
   text-align: center;
   align-self: flex-end;
   margin-right: 73px;
+  margin-bottom: 31px;
 }
 
 .hotel-detail, .hotel-book {
