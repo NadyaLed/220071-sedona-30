@@ -33,7 +33,7 @@
   </div>
 
   <section class="features">
-     <ul class="features-list">
+    <ul class="features-list">
       <li class="features-item features-item-special">
         <div class="feature feature-accent">
           <h3 class="caption">Настоящий<br>городок</h3>
@@ -84,27 +84,29 @@
   </section>
   <section class="find-hotels">
     <h2 class="question">Заинтересовались?</h2>
-    <p class="dateoftrip">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-    <button type="button" class="search-hotel">Поиск гостиницы в Седоне</button>
-    <article class="dropdown" style="display: none">
-      <div>
-      <p class="dropdown-text">Дата заезда</p>
-      <input class="dropdown-input" type="text" name="Дата заезда">
-      </div>
-      <div>
-      <p class="dropdown-text">Дата выезда</p>
-      <input class="dropdown-input" type="text" name="Дата выезда">
-      </div>
-      <div>
-             <p class="dropdown-text">Взрослые</p>
-      <input class="dropdown-input-short" type="text" name="Взрослые">
-      </div>
-      <div>
-      <p class="dropdown-text">Дети</p>
-      <input class="dropdown-input-short " type="text" name="Дети">
-      </div>
-      <button type="button" class="search-button">Найти</button>
-    </article>
+    <p class="dateoftrip">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
+    </p>
+    <div class="dropdown">
+      <button class="button-search dropdown-trigger" type="button">Поиск гостиницы в Седоне</button>
+      <form action="catalog.html" class="dropdown-content search-form" style="display: none">
+        <div class="search-form-item">
+          <p class="dropdown-text">Дата заезда</p>
+          <input class="dropdown-input" type="text" name="Дата заезда">
+        </div>
+        <div class="search-form-item">
+          <p class="dropdown-text">Дата выезда</p>
+          <input class="dropdown-input" type="text" name="Дата выезда">
+        </div>
+        <div class="search-form-group">
+          <p class="dropdown-text">Взрослые</p>
+          <input class="dropdown-input-short" type="text" name="Взрослые">
+          <p class="dropdown-text">Дети</p>
+          <input class="dropdown-input-short " type="text" name="Дети">
+        </div>
+        <button type="button" class="search-button">Найти</button>
+      </form>
+    </div>
+
   </section>
   <img src="img/map.svg" width="1199" height="594" alt="Карта">
 </main>
