@@ -43,11 +43,15 @@
   margin: 0 auto;
 }
 
-.navigation {
+.navigation-item {
   align-self: center;
 }
 
-.main-header-logo {
+.navigation-link {
+
+}
+
+.logo {
   width: 138px;
   height: 70px;
   text-align: center;
@@ -68,7 +72,7 @@
   justify-content: space-between;
 }
 
-.site-navigation {
+.navigation {
   width: 1200px;
   height: 56px;
   color: var(--text-basic);
@@ -115,6 +119,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+.main-foto {
+  display: flex;
+}
 
 .visually-hidden {
   position: absolute;
@@ -125,7 +132,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 .features-list {
@@ -178,9 +185,8 @@
 }
 
 .dateoftrip {
-  width: 435px;
-  height: 95px;
   margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .list {
@@ -192,16 +198,21 @@
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   width: 568px;
   height: 395px;
   margin: 0 auto;
+  position: absolute;
 }
 
 .dropdown-input, .dropdown-input1 {
   background-color: var(--basic-background3);
   border: none;
+}
+
+.dropdown-text {
+
 }
 
 .dropdown-input {
@@ -210,7 +221,7 @@
   align-self: center;
 }
 
-.dropdown-input1 {
+.dropdown-input-short {
   width: 114px;
   height: 38px;
   align-self: center;
@@ -267,6 +278,11 @@ img {
   border: none;
   text-transform: uppercase;
   align-self: center;
+}
+
+.search-hotel:active {
+  padding: 0;
+
 }
 
 .filters {
@@ -557,10 +573,6 @@ img {
   color: var(--text-basic);
   font-weight: normal;
   align-self: center;
-}
-
-.footer-copyright:hover {
-  color: var(--basic-background1);
 }
 
 .footer-copyright:focus {
