@@ -25,7 +25,9 @@
 </header>
 <main class="container">
   <img class="main-foto" src="img/welcome.jpg" width="1200" height="509" alt="Горы Седоны">
+  <img src="img/Shape.jpg" width="1200" height="57" alt="Декоративный элемент">
   <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
+
 
   <div class="sedona-site-description">
     <p class="site-description">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</p>
@@ -88,23 +90,25 @@
     </p>
     <div class="dropdown">
       <button class="button-search dropdown-trigger" type="button">Поиск гостиницы в Седоне</button>
-      <form action="catalog.html" class="dropdown-content search-form"> <!-- style="display: none" -->
-        <div class="search-form-item">
-          <p class="dropdown-text">Дата заезда</p>
-          <input class="dropdown-input" type="text" name="Дата заезда">
-        </div>
-        <div class="search-form-item">
-          <p class="dropdown-text">Дата выезда</p>
-          <input class="dropdown-input" type="text" name="Дата выезда">
-        </div>
-        <div class="search-form-group">
-          <p class="dropdown-text">Взрослые</p>
-          <input class="dropdown-input-short" type="text" name="Взрослые">
-          <p class="dropdown-text">Дети</p>
-          <input class="dropdown-input-short " type="text" name="Дети">
-        </div>
-        <button type="button" class="search-button">Найти</button>
-      </form>
+      <div class="form-wrapper">
+        <form action="catalog.html" class="dropdown-content search-form"> <!-- style="display: none" -->
+          <div class="search-form-item">
+            <p class="dropdown-text">Дата заезда</p>
+            <input class="dropdown-input" type="text" name="Дата заезда">
+          </div>
+          <div class="search-form-item">
+            <p class="dropdown-text">Дата выезда</p>
+            <input class="dropdown-input" type="text" name="Дата выезда">
+          </div>
+          <div class="search-form-group">
+            <p class="dropdown-text">Взрослые</p>
+            <input class="dropdown-input-short" type="text" name="Взрослые">
+            <p class="dropdown-text">Дети</p>
+            <input class="dropdown-input-short " type="text" name="Дети">
+          </div>
+          <button type="button" class="search-button">Найти</button>
+        </form>
+      </div>
     </div>
 
   </section>
@@ -137,7 +141,7 @@
   <div class="footer-copyright">
     <p>
       Website by
-      <a href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML-академия"></a>
+      <a class="copyright"  href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML-академия"></a>
     </p>
   </div>
 </footer>

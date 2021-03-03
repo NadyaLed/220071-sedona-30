@@ -119,6 +119,7 @@
   width: 1200px;
   margin: 0 auto;
 }
+
 .main-foto {
   display: flex;
 }
@@ -195,7 +196,14 @@
 }
 
 .dropdown {
+  position: relative;
+}
 
+.form-wrapper {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
 .dropdown-content {
@@ -210,10 +218,9 @@
   margin: 0 auto;
   position: absolute;
   background-color: var(--text-inverse);
-
 }
 
-.button-search  {
+.button-search {
   width: 568px;
   height: 86px;
   color: var(--text-inverse);;
@@ -223,13 +230,25 @@
   line-height: 26px;
   font-weight: 700;
   border: none;
-
 }
+
+.button-search:hover {
+  background-color: var(--reservation1);
+}
+
+.button-search:active {
+  color: var(--reservation);;
+  background-color: var(--reservation2);
+  border: none;
+}
+
 
 .search-form {
   width: 568px;
   height: 395px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form-item {
@@ -293,7 +312,7 @@ img {
   background-color: var(--basic-hover);
 }
 
-.search-button:focus {
+.search-button:active {
   color: var(--basic-background1);
   background-color: var(--button-focus);
   display: inline-block;
@@ -417,7 +436,7 @@ img {
   height: 86px;
 }
 
-.search-results__column{
+.search-results__column {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -477,7 +496,14 @@ img {
   font-weight: 700;
   margin-bottom: 0;
 
+}
 
+.hotel-name:hover {
+  color: var(--basic-background1);
+}
+
+.hotel-name:active {
+  color: var(--basic-background3);
 }
 
 .hotel-price {
@@ -523,9 +549,30 @@ img {
   width: 110px;
 }
 
+.hotel-detail:hover {
+  background-color: var(--basic-hover);
+}
+
+.hotel-detail:active {
+  color: var(--basic-background1);
+  background-color: var(--button-focus);
+  display: inline-block;
+  border: none;
+}
+
 .hotel-book {
   background-color: var(--reservation);
   width: 142px;
+}
+
+.hotel-book:hover {
+  background-color: var(--reservation1);
+}
+
+.hotel-book:active {
+  color: var(--reservation);;
+  background-color: var(--reservation2);
+  border: none;
 }
 
 .hotel-detail:hover {
@@ -581,7 +628,7 @@ img {
   background-color: var(--basic-hover);
 }
 
-.social-button:focus {
+.social-button:active {
   color: var(--basic-background1);
   background-color: var(--button-focus);
 }
@@ -609,6 +656,6 @@ img {
   align-self: center;
 }
 
-.footer-copyright:focus {
-  color: var(--basic-background2);
+.copyright:hover {
+  color: var(--basic-background1);
 }
