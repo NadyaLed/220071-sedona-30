@@ -13,19 +13,6 @@
 }
 
 
-.page-body {
-  min-width: 1200px;
-  margin: 0;
-  padding: 0;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-  color: var(--text-basic);
-  text-transform: uppercase;
-  background-color: var(--text-inverse);
-}
-
 .main-header {
   text-align: center;
 }

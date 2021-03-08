@@ -5,7 +5,7 @@
   <title>Седона</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/catalog.css">
+<!--  <link rel="stylesheet" href="css/catalog.css">-->
   <link rel="icon" href="img/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -24,9 +24,9 @@
   </nav>
 </header>
 <main class="container">
-  <div>
+  <div class="main-picture" >
     <img class="main-foto" src="img/welcome.jpg" width="1200" height="509" alt="Горы Седоны">
-    <img src="img/Shape.jpg" width="1200" height="57" alt="Декоративный элемент">
+    <img class="main-decoration" src="img/shape.svg" width="1200" height="57" alt="Декоративный элемент">
   </div>
 
   <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
@@ -71,17 +71,17 @@
         </div>
       </li>
       <li class="features-item feature feature-faded">
-        <h3 class="caption">Небольшая площадь</h3>
+        <h3 class="caption">Небольшая<br> площадь</h3>
         <p>— №3 —</p>
         <p>Все достопримечательности<br>находятся очень близко</p>
       </li>
       <li class="features-item feature feature-faded">
-        <h3 class="caption">Красивая дорога</h3>
+        <h3 class="caption">Красивая<br> дорога</h3>
         <p>— №4 —</p>
         <p>Ехать в Седону из Лас-Вегаса совсем<br>не скучно</p>
       </li>
       <li class="features-item feature feature-faded">
-        <h3 class="caption">Мало туристов</h3>
+        <h3 class="caption">Мало<br> туристов</h3>
         <p>— №5 —</p>
         <p>Большинство едет в Гранд Каньон<br>и толпится там</p>
       </li>
@@ -96,17 +96,17 @@
       <div class="form-wrapper">
         <form action="catalog.html" class="dropdown-content search-form"> <!-- style="display: none" -->
           <div class="search-form-item">
-            <p class="dropdown-text">Дата заезда</p>
+            <p class="dropdown-text">Дата заезда:</p>
             <input class="dropdown-input" type="text" name="Дата заезда">
           </div>
           <div class="search-form-item">
-            <p class="dropdown-text">Дата выезда</p>
+            <p class="dropdown-text">Дата выезда:</p>
             <input class="dropdown-input" type="text" name="Дата выезда">
           </div>
           <div class="search-form-group">
-            <p class="dropdown-text">Взрослые</p>
+            <p class="dropdown-text">Взрослые:</p>
             <input class="dropdown-input-short" type="text" name="Взрослые">
-            <p class="dropdown-text">Дети</p>
+            <p class="dropdown-text">Дети:</p>
             <input class="dropdown-input-short " type="text" name="Дети">
           </div>
           <button type="button" class="search-button">Найти</button>
