@@ -65,9 +65,35 @@
     </fieldset>
     <fieldset class="filter">
       <legend class="filter-cost">Стоимость в сутки (р):</legend>
-      <input type="text" name="минимальная стоимость">
-      <input type="text" name="максимальная стоимость">
-      <article>Ползунок выбора стоимости</article>
+      <!-- <input type="text" name="минимальная стоимость">
+      <input type="text" name="максимальная стоимость"> -->
+
+
+
+      <div class="range-filter">
+
+        <div class="price-controls">
+          <label class="min-price">
+            <input type="number" name="min-price" value="0">
+          </label>
+          <label class="max-price">
+            <input type="number" name="max-price" value="3000">
+          </label>
+        </div>
+
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+        </div>
+      </div>
+
+
+
+
+      <!-- <article>Ползунок выбора стоимости</article> -->
       <button class="filter-button" type="button">Показать</button>
     </fieldset>
   </section>
@@ -161,7 +187,7 @@
     </ul>
   </section>
 </main>
-<footer class="main-footer">
+<footer class="main-footer-catalog">
   <div>
     <p>#visitsedona</p>
     <p><a class="phone" href="tel:+74956660166">тел: +7 (495) 666-01-66</a></p>

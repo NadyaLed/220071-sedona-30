@@ -5,6 +5,7 @@
   --basic-background2: #EEEEEE;
   --basic-background3: #F2F2F2;
   --basic-background4: #EBEBEB;
+  --basic-background5: #CACACA;
   --basic-hover: #669EC0;
   --button-focus: #5496BD;
   --reservation: #766357;
@@ -113,7 +114,7 @@
 }
 
 .navigation-link:active {
-  color: var(--basic-background4);
+  color: var(--basic-background5);
   text-align: center;
   text-decoration: none;
 }
@@ -397,9 +398,65 @@ img {
 }
 
 .filter {
-  border: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
   align-self: center;
 }
+
+.range-filter {
+
+}
+
+.range-controls {
+  /* margin-bottom: 33px; */
+  position: relative;
+}
+
+.range-controls .scale {
+  width: 316px;
+  height: 2px;
+  background: var(--basic-background4);
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: var(--text-inverse);
+}
+
+.range-controls .toggle {
+  width: 19px;
+  height: 19.09px;
+  padding: 0;
+  border: 8px solid #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  cursor: pointer;
+
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+  top: -16px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+  top: -16px;
+}
+
+
+.scale {
+  margin-bottom: 33px;
+}
+
+.price-controls {
+  margin-bottom: 20px;
+}
+
 
 .filter-button {
   text-transform: uppercase;
@@ -527,10 +584,28 @@ img {
 
 .results-list-row {
   margin-left: 40px;
+  color: var(--basic-background5);
+}
+
+.results-list-row:hover {
+  color: var(--basic-background1);
+}
+
+.results-list-row:active {
+  color: var(--text-basic);
 }
 
 .results-list-row1 {
   margin-left: 32px;
+  color: var(--basic-background5);
+}
+
+.results-list-row1:hover {
+  color: var(--basic-background1);
+}
+
+.results-list-row1:active {
+  color: var(--text-basic);
 }
 
 .hotel-name {
@@ -546,7 +621,7 @@ img {
 }
 
 .hotel-name:active {
-  color: var(--basic-background4);
+  color: var(--basic-background5);
 }
 
 .hotel-price {
@@ -644,6 +719,18 @@ img {
   background: rgba(255, 255, 255, 0.9);
 }
 
+.main-footer-catalog {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1200px;
+  height: 120px;
+}
+
 .phone {
   font-size: 21px;
   line-height: 26px;
@@ -705,4 +792,8 @@ img {
 
 .copyright:hover {
   color: var(--basic-background1);
+}
+
+.copyright:active {
+  color: var(--basic-background5);
 }
