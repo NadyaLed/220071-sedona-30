@@ -54,6 +54,11 @@
   align-self: center;
 }
 
+.navigation-item1 {
+  align-self: center;
+  margin-left: 200px;
+}
+
  /* .navigation-link1 {
  margin-right: 182px;
 }
@@ -135,6 +140,7 @@
 }
 
 .section-header {
+  color: var(--text-faded);
   font-size: 14px;
   line-height: 26px;
   font-weight: normal;
@@ -173,6 +179,7 @@
   align-items: center;
   justify-content: center;
 
+
 }
 
 .features-list {
@@ -184,7 +191,11 @@
 
 .features-item {
   width: 400px;
-  height: 300px;
+  height: 256px;
+}
+
+.feature-icon {
+  height: 330px;
 }
 
 .features-item-special {
@@ -225,6 +236,7 @@
 }
 
 .dateoftrip {
+  color: var(--text-faded);
   padding-bottom: 48px;
   margin-top: 40px;
 }
@@ -796,10 +808,10 @@
   margin-right: 10px;
 }
 
-.copyright:hover {
+/* .copyright:hover {
   color: var(--basic-background1);
 }
 
 .copyright:active {
   color: var(--basic-background5);
-}
+} */
