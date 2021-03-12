@@ -228,14 +228,14 @@
   font-weight: 700;
 }
 
-.question {
+.find-hotel {
   font-size: 30px;
   line-height: 24px;
   font-weight: 700;
   margin: 58px 457px 4px 446px;
 }
 
-.dateoftrip {
+.find-hotels-date {
   color: var(--text-faded);
   padding-bottom: 48px;
   margin-top: 40px;
@@ -715,6 +715,10 @@
   border: none;
 }
 
+.map {
+
+}
+
 .main-footer {
   font-size: 21px;
   line-height: 26px;
@@ -729,6 +733,11 @@
   margin-top: -120px;
   position: relative;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.footer-contacts {
+  line-height: 5px;
+  align-self: center;
 }
 
 .main-footer-catalog {
