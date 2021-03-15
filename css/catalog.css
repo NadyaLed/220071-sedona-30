@@ -3,11 +3,11 @@
   --basic-background1: #81B3D2;
   --basic-background2: #EEEEEE;
   --basic-hover: #669EC0;
-  --button-focus: #5496BD;
+  --button-active: #5496BD;
   --reservation: #766357;
   --reservation1: #604E43;
-  --reservation2: #503E33;
-  --reservation3: #766458;
+  --button-secondary-background-active: #503E33;
+  --reservation2: #766458;
   --text-basic: #000000;
   --text-faded: #333333;
 }

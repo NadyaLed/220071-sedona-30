@@ -7,11 +7,11 @@
   --basic-background4: #EBEBEB;
   --basic-background5: #CACACA;
   --basic-hover: #669EC0;
-  --button-focus: #5496BD;
+  --button-active: #5496BD;
   --reservation: #766357;
   --reservation1: #604E43;
-  --reservation2: #503E33;
-  --reservation3: #766458;
+  --reservation2: #766458;
+  --button-secondary-background-active: #503E33;
   --text-basic: #000000;
   --text-faded: #333333;
 }
@@ -268,6 +268,7 @@
   margin: 0 auto;
   position: absolute;
   background-color: var(--text-inverse);
+  left: 316px;
 }
 
 .button-search {
@@ -287,8 +288,8 @@
 }
 
 .button-search:active {
-  color: var(--reservation);;
-  background-color: var(--reservation2);
+  color: rgba(255,255,255, 0.3);
+  background-color: var(--button-secondary-background-active);
   border: none;
 }
 
@@ -369,8 +370,8 @@
 }
 
 .search-button:active {
-  color: var(--basic-background1);
-  background-color: var(--button-focus);
+  color: rgba(255,255,255, 0.3);
+  background-color: var(--button-active);
   display: inline-block;
   border: none;
 }
@@ -684,8 +685,8 @@
 }
 
 .hotel-detail:active {
-  color: var(--basic-background1);
-  background-color: var(--button-focus);
+  color: rgba(255,255,255, 0.3);
+  background-color: var(--button-active);
   display: inline-block;
   border: none;
 }
@@ -700,8 +701,8 @@
 }
 
 .hotel-book:active {
-  color: var(--reservation);;
-  background-color: var(--reservation2);
+  color: rgba(255,255,255, 0.3);
+  background-color: var(--button-secondary-background-active);
   border: none;
 }
 
@@ -785,7 +786,7 @@
 
 .social-button:active {
   color: var(--basic-background1);
-  background-color: var(--button-focus);
+  background-color: var(--button-active);
 }
 
 .social-logo {
