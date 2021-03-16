@@ -415,6 +415,7 @@
   padding: 0;
   border: none;
   align-self: center;
+  margin-left: 72px;
 }
 
 .range-filter {
@@ -483,6 +484,7 @@
   line-height: 21px;
   font-weight: 400;
   list-style: none;
+  padding: 0;
 }
 
 .filter-infrastructure, .filter-housing, .filter-cost {
@@ -510,6 +512,15 @@
   height: 33.33%;
 
 }
+
+.filter-result li:first-child{
+  border-top: solid 1px #E5E5E5;
+}
+
+.filter-result li{
+  border-bottom: solid 1px #E5E5E5;
+}
+
 
 .hotel-picture {
   width: 135px;
