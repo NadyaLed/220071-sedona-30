@@ -54,8 +54,7 @@
   align-self: center;
 }
 
-.navigation-item1 {
-  align-self: center;
+.navigation-item.indent {
   margin-left: 200px;
 }
 
@@ -471,11 +470,20 @@
   margin-bottom: 20px;
 }
 
+.min-price-input {
+  background-color: inherit;
+}
+
+.min-price-input {
+  background-color: inherit;
+}
+
 
 .filter-button {
   text-transform: uppercase;
   width: 137px;
   height: 36px;
+  background-color: inherit;
 }
 
 .filter1, .filter2 {
@@ -485,6 +493,10 @@
   font-weight: 400;
   list-style: none;
   padding: 0;
+}
+
+.input-checkbox {
+  background-color: inherit;
 }
 
 .filter-infrastructure, .filter-housing, .filter-cost {
@@ -612,27 +624,33 @@
 .results-list-row {
   margin-left: 40px;
   color: var(--basic-background5);
+  border-bottom: 1px dashed #81B3D2;
 }
 
 .results-list-row:hover {
   color: var(--basic-background1);
+  border-bottom: 1px dashed #81B3D2;
 }
 
 .results-list-row:active {
   color: var(--text-basic);
+  border-bottom: none;
 }
 
 .results-list-row1 {
   margin-left: 32px;
   color: var(--basic-background5);
+  border-bottom: 1px dashed #81B3D2;
 }
 
 .results-list-row1:hover {
   color: var(--basic-background1);
+  border-bottom: 1px dashed #81B3D2;
 }
 
 .results-list-row1:active {
   color: var(--text-basic);
+  border-bottom: none;
 }
 
 .hotel-name {
