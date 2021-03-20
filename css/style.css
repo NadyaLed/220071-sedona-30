@@ -422,8 +422,8 @@
   height: 23px;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 1px solid #FFFFFF;
-  border-radius: 0.25em;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
   margin-right: 0.5em;
   background-repeat: no-repeat;
   background-position: center center;
@@ -433,7 +433,8 @@
 .custom-checkbox:checked+label::before {
   border-color: #FFFFFF;
   background-color: inherit;
-  background-image: url(img/check.svg);
+  background-image: url('../img/check.svg');
+background-size: 30px;
 }
 
 .filter {
@@ -442,6 +443,15 @@
   border: none;
   align-self: center;
   margin-left: 72px;
+
+}
+
+.filter-price {
+  margin: 0;
+  padding: 0;
+  border: none;
+  align-self: center;
+  margin-right: 73px;
 }
 
 .range-filter {
@@ -498,11 +508,21 @@
 }
 
 .min-price-input {
+  width: 158.5px;
+  height: 36px;
+  color: var(--text-inverse);
   background-color: inherit;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
 }
 
-.min-price-input {
+.max-price-input {
+  width: 158.5px;
+  height: 36px;
+  color: var(--text-inverse);
   background-color: inherit;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
 }
 
 
@@ -510,6 +530,9 @@
   text-transform: uppercase;
   width: 137px;
   height: 36px;
+  color: var(--text-inverse);
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
   background-color: inherit;
 }
 
@@ -531,6 +554,10 @@
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
+}
+
+.filter-cost {
+  margin-bottom: 13px;
 }
 
 .filter-result {
@@ -712,8 +739,15 @@
 
 }
 
+.hotel-star {
+  text-align: end;
+  margin-top: 30px;
+  margin-bottom: 47px;
+  margin-right: 73px;
+}
+
 .hotel-rating {
-  color: var(--text-basic);
+  color: #666666;
   background-color: var(--basic-background3);
   width: 110px;
   height: 27px;

@@ -18,7 +18,7 @@
     <ul class="navigation">
       <li class="navigation-item"><a class="navigation-link" href="pages/blank.html">Информация</a></li>
       <li class="navigation-item"><a class="navigation-link" href="pages/blank.html">Фото и видео</a></li>
-      <li class="navigation-item-indent"><a class="navigation-link" href="pages/blank.html">Карта штата</a></li>
+      <li class="navigation-item   indent"><a class="navigation-link" href="pages/blank.html">Карта штата</a></li>
       <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
     </ul>
   </nav>
@@ -63,11 +63,10 @@
         </li>
       </ul>
     </fieldset>
-    <fieldset class="filter">
+    <fieldset class="filter-price">
       <legend class="filter-cost">Стоимость в сутки (р):</legend>
       <!-- <input type="text" name="минимальная стоимость">
       <input type="text" name="максимальная стоимость"> -->
-
 
 
       <div class="range-filter">
@@ -91,8 +90,6 @@
       </div>
 
 
-
-
       <!-- <article>Ползунок выбора стоимости</article> -->
       <button class="filter-button" type="button">Показать</button>
     </fieldset>
@@ -111,8 +108,10 @@
         </div>
       </div>
       <div class="search-results__column">
-        <button type="button">По возрастанию</button>
-        <button type="button">По убыванию</button>
+        <button type="button"><img src="img/up.svg" width="11" height="10" alt="star"></button>
+        <button type="button"><img src="img/down.svg" width="11" height="10" alt="star"></button>
+
+
       </div>
     </div>
     <ul class="filter-result">
@@ -132,13 +131,21 @@
             </div>
             <button class="hotel-detail" type="button">Подробнее</button>
             <button class="hotel-book" type="button">Забронировать</button>
+          </div>
+        </div>
 
+        <div>
+          <div class="hotel-star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
           </div>
 
 
-        </div>
-        <div class="hotel-rating">
-          <article>Рейтинг: 8,5</article>
+          <div class="hotel-rating">
+            <article>Рейтинг: 8,5</article>
+          </div>
         </div>
       </li>
 
@@ -159,8 +166,15 @@
           </div>
         </div>
 
-        <div class="hotel-rating">
-          <article>Рейтинг: 8,9</article>
+        <div>
+          <div class="hotel-star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+          </div>
+          <div class="hotel-rating">
+            <article>Рейтинг: 8,9</article>
+          </div>
         </div>
       </li>
 
@@ -179,8 +193,15 @@
             <button class="hotel-book" type="button">Забронировать</button>
           </div>
         </div>
-        <div class="hotel-rating">
-          <article>Рейтинг: 9,2</article>
+
+        <div>
+          <div class="hotel-star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+            <img src="img/star.svg" width="18" height="17" alt="star">
+          </div>
+          <div class="hotel-rating">
+            <article>Рейтинг: 9,2</article>
+          </div>
         </div>
       </li>
     </ul>
@@ -213,7 +234,8 @@
   </div>
   <div class="copyright">
     <p class="copyright-label">Website by</p>
-    <a class="copyright-image" href="https://htmlacademy.ru"><img class="copyright" src="img/logo-htmlacademy.svg" width="115" height="41"
+    <a class="copyright-image" href="https://htmlacademy.ru"><img class="copyright" src="img/logo-htmlacademy.svg"
+                                                                  width="115" height="41"
                                                                   alt="HTML-академия"></a>
   </div>
 </footer>
