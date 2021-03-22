@@ -514,6 +514,7 @@ background-size: 30px;
   background-color: inherit;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
+  text-align: center;
 }
 
 .max-price-input {
@@ -523,6 +524,7 @@ background-size: 30px;
   background-color: inherit;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
+  text-align: center;
 }
 
 
